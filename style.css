@@ -8,7 +8,10 @@ h1 {
     text-align: center;
 }
 
-.grid-container {}
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
 
 .grid-items {
     border: 4px solid lightgrey;
